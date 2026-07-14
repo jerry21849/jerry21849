@@ -1,0 +1,36 @@
+[project]
+name = "crypto-crew"
+version = "0.1.0"
+description = "加密貨幣多代理智能助手 — 研究+預測+回測+Paper Trading 一站式助手"
+requires-python = ">=3.11"
+readme = "README.md"
+
+dependencies = [
+    "crewai>=0.30.0,<1.0.0",
+    "crewai-tools>=0.1.0,<1.0.0",
+    "requests>=2.31.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "ta>=0.10.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-mock>=3.10.0",
+    "responses>=0.23.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["crypto_crew*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
