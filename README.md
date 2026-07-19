@@ -11,9 +11,11 @@
 - ⛓️ **鏈上基本面** — DefiLlama TVL + 項目健康度
 - 💬 **市場情緒** — Fear & Greed 指數 + X 社群情緒
 - 🔮 **價格預測** — 綜合多維度數據，多空雙面觀點
-- 📈 **回測** — RSI / MA 交叉 / 布林帶策略回測（Sharpe、MaxDD、勝率）
+- 📈 **回測** — RSI / MA 交叉 / 布林帶 / 均值回歸 / MACD 柱狀圖
 - ⚠️ **風險管理** — VaR、ATR、波動率、倉位建議
-- 💼 **Paper Trading** — 模擬交易（0.1% 手續費 + 滑點、狀態持久化）
+- 💼 **Paper Trading** — 模擬交易（0.1% 手續費 + 滑點、多策略隔離、狀態持久化）
+- 📦 **組合分析** — 多幣種波動率反向加權配置建議
+- 🌐 **Web UI** — Gradio 前端（`python -m crypto_crew web`）
 
 ## 安裝
 
@@ -53,12 +55,17 @@ python -m crypto_crew "分析 ETH，給我未來 7 天預測，回測 RSI 策略
 # 指定風險偏好
 python -m crypto_crew "分析 SOL" --risk aggressive
 
-# 指定初始資金
-python -m crypto_crew "分析 BTC" --cash 50000
+# 多幣種組合分析
+python -m crypto_crew portfolio --coins btc,eth,sol
 
-# 互動模式（不帶參數）
+# Gradio Web UI
+python -m crypto_crew web --port 7860
+
+# 互動模式
 python -m crypto_crew
 ```
+
+也可使用 entry point：`crypto-crew "分析 BTC"`。
 
 ## 數據源
 
@@ -75,15 +82,16 @@ python -m crypto_crew
 ## 開發
 
 ```bash
-# 安裝 dev 依賴
 pip install -e ".[dev]"
-
-# 運行測試
 pytest -q
-
-# 測試覆蓋率
-pytest --cov=crypto_crew -q
 ```
+
+## 架構備註
+
+- CrewAI hierarchical 流程；Task 之間透過 `context` 傳遞輸出。
+- LLM 不可用時自動降級為工具鏈 fallback（仍產出結構化報告）。
+- Paper Trading 狀態：`crypto_crew/state/paper_portfolio.json`（支援 `strategy_tag` 多策略隔離）。
+- RAG / 預測準確率自動回饋不在當前範圍。
 
 ## 免責聲明（再次強調）
 

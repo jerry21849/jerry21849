@@ -30,3 +30,6 @@ dist/
 # Local secrets
 .env
 *.local
+
+# Generated reports / runtime state snapshots
+reports/
