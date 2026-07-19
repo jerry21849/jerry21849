@@ -25,6 +25,8 @@ SYMBOL_MAP: dict[str, dict[str, str]] = {
 }
 
 DEFAULT_COIN = "btc"
+PORTFOLIO_COINS: list[str] = ["btc", "eth", "sol"]
+GRADIO_PORT = int(os.getenv("GRADIO_PORT", "7860"))
 
 # ── Free API endpoints ─────────────────────────────────────────────
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
@@ -47,6 +49,24 @@ DISCLAIMER = (
     "加密貨幣波動極大，投資有虧損風險，請自行研究（DYOR）。"
     "預測準確率無法保證。"
 )
+
+_PLACEHOLDER_KEYS = {
+    "",
+    "sk-your-key-here",
+    "your-api-key",
+    "changeme",
+}
+
+
+def validate_api_key() -> None:
+    """Raise ValueError if OPENAI_API_KEY is missing or a placeholder."""
+    # Re-read env each call so CLI overrides / late dotenv loads are honored.
+    key = (os.getenv("OPENAI_API_KEY") or LLM_API_KEY or "").strip()
+    if not key or key.lower() in _PLACEHOLDER_KEYS or key.startswith("sk-your-"):
+        raise ValueError(
+            "OPENAI_API_KEY 未設定或仍為占位符。"
+            "請在 .env 中填入有效的 API Key（參考 .env.example）。"
+        )
 
 
 def resolve_coin(coin: str) -> dict[str, str]:

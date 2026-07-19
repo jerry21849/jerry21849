@@ -1,358 +1,413 @@
 {
+  "version": 2,
   "initial_cash": 10000.0,
-  "cash": 10042.403823088443,
-  "positions": {},
-  "trade_history": [
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
-    },
-    {
-      "action": "buy",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50025.0,
-      "fee": 0.1
-    },
-    {
-      "action": "sell",
-      "symbol": "BTC",
-      "quantity": 0.001999,
-      "price": 50974.5,
-      "fee": 0.1
+  "strategies": {
+    "default": {
+      "cash": 10042.403823088443,
+      "positions": {},
+      "trade_history": [
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "buy",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50025.0,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        },
+        {
+          "action": "sell",
+          "symbol": "BTC",
+          "quantity": 0.001999,
+          "price": 50974.5,
+          "fee": 0.1,
+          "strategy_tag": "default"
+        }
+      ],
+      "total_trades": 50
     }
-  ],
-  "total_trades": 50
+  }
 }
